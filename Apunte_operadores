@@ -1,0 +1,36 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x = 42;
+            x += 2; // Equivalente a x = x + 2
+            Console.WriteLine(x);
+            
+            x = 42;
+            x -= 2; //Equivalente a x = x - 2
+            Console.WriteLine(x);
+
+            x = 42;
+            x /= 2; // Equivalente a x = x / 2
+            Console.WriteLine(x);
+
+            x = 42;
+            x %= 2; // Equivalente a x = x % 2
+            Console.WriteLine(x);
+            
+            x = 43;
+            x %= 2; 
+            Console.WriteLine(x);
+            
+            Console .WriteLine (x%2);
+        }
+    }
+}
