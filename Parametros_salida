@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Escribir(out int x, out int y)
+        {
+            x = 5;
+            y = 42;
+        }
+        static void Main(string[] args)
+        {
+            int a, b;
+            Escribir(out a, out b);
+            Console.WriteLine(a+" "+b);
+        }
+    }
+}
+//Este metodo escribe el valor de las variables dentro del metodo(x e y) sobre las dos variables que se le hayan pasado, aqui por ejemplo metemos (a y b) y el valor de x se asignara a "a" y el de y a "b" en el metodo main(los valores se asignaran en orden como siempre a menos que nombremos las variables explicitamente ejem x: a).
+
+//De esta forma podemos retornar multiples valores a diferencia de si usamos return.
