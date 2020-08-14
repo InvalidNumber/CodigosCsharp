@@ -1,0 +1,39 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace SoloLearn
+{
+    class Program
+    {
+       // Ejemplo de Overloading, consiste en crear un metodo el cual escribimos dos veces pero con diferente tipo de parametro, cuando lo llamemos usara el correspondiente al que coincida con el tipo de argumento pasado.
+
+        static void Main()
+        {
+            Console.WriteLine("You are in Main Method.");
+            Console.WriteLine("---");
+            Enter(5.2);
+            Console.WriteLine("---");
+            Enter(5);
+            Console.WriteLine("---");
+            Enter(3);
+            Console.WriteLine("---");
+            Enter(8.7);
+        }
+        
+        static void Enter(int n)
+        {
+            Console.WriteLine("Este es el metodo Enter con parametro Int.");
+            Console.WriteLine(n);
+        }
+        
+        static void Enter(double n)
+        {
+            Console.WriteLine("Este es el metodo Enter con parametro Double.");
+            Console.WriteLine(n);
+        }
+    }
+}
