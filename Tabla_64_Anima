@@ -1,0 +1,194 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+//Programa que muestra los requirimientos que debe alcanzar un invocador en Anima Beyond Fantasy para interactuar con una criatura segun su nivel introduciendolo al comienzo.
+
+//Se aceptan consejos, sugerencias etc xD
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            short nivel_mons;
+            short invocar;
+            short controlar;
+            short atar;
+            short descombocar;
+            short zeon;
+            
+    Console.WriteLine("Introduzca el nivel del montruo que desea afectar:"); nivel_mons=Int16.Parse(Console.ReadLine());
+            Console.WriteLine("El nivel elegido es " + nivel_mons + ".");
+            
+            if(nivel_mons == 0){
+                invocar=140;
+                controlar=180;
+                atar=160;
+                descombocar=100;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 10 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 20 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 5 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 5 de zeon.");
+            }
+            else if(nivel_mons == 1){
+                invocar=160;
+                controlar=200;
+                atar=180;
+                descombocar=120;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 20 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 40 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 10 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 5 de zeon.");
+            }
+            else if(nivel_mons == 2){
+                invocar=180;
+                controlar=220;
+                atar=200;
+                descombocar=140;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 40 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 80 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 20 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 10 de zeon.");
+            }
+            else if(nivel_mons == 3){
+                invocar=200;
+                controlar=240;
+                atar=220;
+                descombocar=160;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 60 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 120 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 30 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 15 de zeon.");
+            }
+            else if(nivel_mons == 4){
+                invocar=220;
+                controlar=260;
+                atar=240;
+                descombocar=180;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 80 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 160 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 40 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 20 de zeon.");
+            }
+            else if(nivel_mons == 5){
+                invocar=240;
+                controlar=280;
+                atar=260;
+                descombocar=200;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 100 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 200 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 50 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 25 de zeon.");
+            }
+            else if(nivel_mons == 6){
+                invocar=260;
+                controlar=300;
+                atar=280;
+                descombocar=220;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 120 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 240 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 60 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 30 de zeon.");
+            }
+            else if(nivel_mons == 7){
+                invocar=280;
+                controlar=320;
+                atar=3000;
+                descombocar=240;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 140 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 280 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 70 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 40 de zeon.");
+            }
+            else if(nivel_mons == 8){
+                invocar=300;
+                controlar=340;
+                atar=320;
+                descombocar=260;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 160 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 320 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 80 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 50 de zeon.");
+            }
+            else if(nivel_mons == 9){
+                invocar=320;
+                controlar=360;
+                atar=340;
+                descombocar=280;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 180 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 360 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 90 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 60 de zeon.");
+            }
+            else if(nivel_mons == 10){
+                invocar=340;
+                controlar=380;
+                atar=360;
+                descombocar=300;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 200 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 400 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 100 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 80 de zeon.");
+            }
+            else if(nivel_mons == 11){
+                invocar=360;
+                controlar=400;
+                atar=380;
+                descombocar=320;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 220 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 440 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 120 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 100 de zeon.");
+            }
+            else if(nivel_mons == 12){
+                invocar=380;
+                controlar=420;
+                atar=400;
+                descombocar=340;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 240 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 480 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 140 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 120 de zeon.");
+            }
+            else if(nivel_mons == 13){
+                invocar=400;
+                controlar=440;
+                atar=420;
+                descombocar=360;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 260 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 520 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 160 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 140 de zeon.");
+            }
+            else if(nivel_mons == 14){
+                invocar=420;
+                controlar=460;
+                atar=440;
+                descombocar=380;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 280 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 560 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 180 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 160 de zeon.");
+            }
+            else if(nivel_mons == 15){
+                invocar=440;
+                controlar=480;
+                atar=460;
+                descombocar=400;
+                Console.WriteLine("Para invocar necesitas " + invocar + " de invocar y 300 de zeon.");
+                Console.WriteLine("Para controlarlo " + controlar + " y 600 de zeon.");
+                Console.WriteLine("Para atarlo " + atar + " y 200 de zeon.");
+                Console.WriteLine("Para descombocarlo " + descombocar + " y 180 de zeon.");
+            }
+            else
+            {
+                Console.WriteLine("Error, debe introducir un valor entre 0 y 15.");
+            }
+            
+        }
+    }
+}
