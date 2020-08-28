@@ -1,0 +1,29 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/* El tipo de dato de la variable en el bucle foreach debe coincidir el tipo de los elementos del arreglo.
+Comúnmente, la palabra clave var es utilizada como el tipo de la variable, de esta forma: foreach (var k in array). El compilador determina el tipo apropiado para var. */
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[ ] array = new int[10];
+            for (int k = 0; k < 10; k++) {
+                array[k] = k*2;
+            }
+            /* El metodo foreach pasa por cada
+            uno de los miembros de un array y
+            realiza una acción con cada uno de
+            ellos consecutivamente. */
+            foreach (int k in array) {
+                Console.WriteLine(k);
+            }
+        }
+    }
+}
