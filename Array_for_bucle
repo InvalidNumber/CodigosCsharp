@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* Creamos un bucle for que
+            asigna valores a los miembros del
+            array, concretamente el valor que
+            tenga k en el bucle multiplicado
+            por 2. */
+            int[ ] array = new int[10];
+            for (int k = 0; k < 10; k++) {
+                array[k] = k*2;
+            }
+            /* Con este bucle imprimimos todos
+            los valores que hemos escrito
+            dentro del bucle, tambien podemos
+            simplemente poner el comando de
+            impresion en el primer bucle. */
+            for (int k = 0; k < 10; k++) {
+                Console.WriteLine(array[k]);
+            }
+        }
+    }
+}
