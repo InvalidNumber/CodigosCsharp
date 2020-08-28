@@ -1,0 +1,25 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SoloLearn
+{
+    class Program
+    {
+        class Persona
+        {
+            private int edad;
+            public Persona()
+            {
+                Console.WriteLine("Hola.");
+            }
+        }
+        static void Main(string[] args)
+        {
+            Persona p = new Persona();
+            Persona x = new Persona();
+        }
+    }
+}
