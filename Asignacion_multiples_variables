@@ -1,0 +1,35 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/* Ejemplo de asignación de valores a multiples
+variables en una sola linea, hace falta
+diferenciar entre el primer y segundo ejemplo
+ya que en el segundo caso solo la variable
+que esta junto al "=" recibe su valor, asi que
+si intentas llamar a n5 o n4 el programa
+fallara, para comprobarlo solo cambia n6 por
+uno de ellas. */
+
+
+namespace SoloLearn
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+          byte n1;
+          byte n2;
+          byte n3;
+          
+          n1 = n2 = n3 = 2;
+          Console.WriteLine(n1);
+          Console.WriteLine(n2);
+        
+          byte n4, n5, n6 = 3;
+          Console.WriteLine(n6);
+        }
+    }
+}
